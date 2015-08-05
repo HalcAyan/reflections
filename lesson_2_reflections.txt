@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The metadata for tracking file revision history is added to the directory. This needs to be done to convert a locally saved directory to a repository that can use git.
+--------------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+You cannot edit the staging area directly. It allows us to create temporary copies of what we think is good to push on to the main repository.
