@@ -6,3 +6,9 @@ The metadata for tracking file revision history is added to the directory. This 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 You cannot edit the staging area directly. It allows us to create temporary copies of what we think is good to push on to the main repository.
+
+--------------------------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+By using git status and git diff (with no arguments) you can double check your commits to ensure they contain only one logical change each.
+--------------------------------------------------------------------------------------
