@@ -1,17 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-The metadata for tracking file revision history is added to the directory. This needs to be done to convert a locally saved directory to a repository that can use git.
+The metadata for tracking file revision history is added to the directory. This needs
+to be done to convert a locally saved directory to a repository that can use git.
 --------------------------------------------------------------------------------------
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository? What
+value do you think it offers?
 
-You cannot edit the staging area directly. It allows us to create temporary copies of what we think is good to push on to the main repository.
+You cannot edit the staging area directly. It allows us to create temporary copies of
+what we think is good to push on to the main repository.
 
 --------------------------------------------------------------------------------------
 How can you use the staging area to make sure you have one commit per logical change?
 
-By using git status and git diff (with no arguments) you can double check your commits to ensure they contain only one logical change each.
+By using git status and git diff (with no arguments) you can double check your
+commits to ensure they contain only one logical change each.
 --------------------------------------------------------------------------------------
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
 
-When trying to add risky new features or if you have multiple people working on the same project. Having a separate branch would let you experiment on it without worrying about breaking the project. Also, in a collaborative project, each person could have their own branch to work with so that everyone can work parallely. 
+When trying to add risky new features or if you have multiple people working on the
+same project. Having a separate branch would let you experiment on it without
+worrying about breaking the project. Also, in a collaborative project, each person
+could have their own branch to work with so that everyone can work parallely. 
+--------------------------------------------------------------------------------------
+How do the diagrams help you visualize the branch structure?
+
+They help us see at which points branches were created.
+--------------------------------------------------------------------------------------
