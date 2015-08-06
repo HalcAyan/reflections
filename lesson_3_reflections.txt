@@ -10,3 +10,7 @@ Changes made by someone else on the remote repository might interfere with what 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 --------------------------------------------------------------------------------------
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Gives a point of reference against which we can compare all the changes we have made since the last pull
+--------------------------------------------------------------------------------------
